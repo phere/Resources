@@ -1,0 +1,8 @@
+project
+	: requirements <include>. <cxxflags>-std=c++11
+	: usage-requirements <include>. <cxxflags>-std=c++11
+	;
+
+lib Resources
+    : [ glob src/*.cpp ]
+    ;
